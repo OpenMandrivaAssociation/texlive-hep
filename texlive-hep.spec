@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/hep
+# catalog-date 2008-08-21 09:38:31 +0200
+# catalog-license lppl
+# catalog-version 1.0
 Name:		texlive-hep
 Version:	1.0
 Release:	1
@@ -39,6 +45,7 @@ papers, etc.
 %{_texmfdistdir}/tex/latex/hep/hep.sty
 %doc %{_texmfdistdir}/doc/latex/hep/ChangeLog
 %doc %{_texmfdistdir}/doc/latex/hep/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ papers, etc.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
