@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-hep
 Version:	1.0
-Release:	7
+Release:	8
 Summary:	A "convenience wrapper" for High Energy Physics packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hep
