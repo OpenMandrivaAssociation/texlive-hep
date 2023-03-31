@@ -1,6 +1,6 @@
 Name:		texlive-hep
 Version:	15878
-Release:	1
+Release:	2
 Summary:	A "convenience wrapper" for High Energy Physics packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hep
