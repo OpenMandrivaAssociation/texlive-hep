@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	A "convenience wrapper" for High Energy Physics packages
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hep
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/hep
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hep.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hep.doc.r%{version}.tar.xz
